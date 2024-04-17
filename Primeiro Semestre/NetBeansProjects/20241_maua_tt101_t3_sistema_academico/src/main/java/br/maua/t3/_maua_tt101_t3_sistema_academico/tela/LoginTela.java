@@ -38,9 +38,9 @@ public class LoginTela extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        loginTextField.setBorder(javax.swing.BorderFactory.createTitledBorder("Digite seu login"));
+        loginTextField.setBorder(javax.swing.BorderFactory.createTitledBorder(null));
 
-        senhaTextField.setBorder(javax.swing.BorderFactory.createTitledBorder("Digite sua senha"));
+        senhaTextField.setBorder(javax.swing.BorderFactory.createTitledBorder(null));
 
         okButtonLogin.setText("OK");
         okButtonLogin.setToolTipText("");
@@ -70,7 +70,7 @@ public class LoginTela extends javax.swing.JFrame {
                         .addComponent(okButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(126, 126, 126)
                         .addComponent(cancelarButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 264, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(senhaTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -94,7 +94,7 @@ public class LoginTela extends javax.swing.JFrame {
                     .addComponent(cancelarButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(cadastrarButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(162, Short.MAX_VALUE))
+                .addContainerGap(235, Short.MAX_VALUE))
         );
 
         pack();
